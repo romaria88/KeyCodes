@@ -1,0 +1,29 @@
+@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+.key {
+    border: 1px solid black;
+    font-size: 18px;
+    background: rgb(221, 218, 218);
+    padding: 20px;
+    margin: 10px;
+
+}
+.key.span {
+    color: grey;
+    
+}
