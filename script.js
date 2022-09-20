@@ -2,7 +2,7 @@ const main = document.querySelector('.main');
 
 window.addEventListener('keydown', (e) => {
     console.log(e);
-    const {key, keyCode, code} = e;
+    const {key, code} = e;
    
     main.innerHTML = `
     <div class='key'>
